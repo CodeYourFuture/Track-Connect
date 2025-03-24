@@ -1,0 +1,17 @@
+baseURL = 'https://curriculum.codeyourfuture.io/' # update with your domain
+title = 'My CYF Curriculum Site'  #update with your site name
+
+# IMPORTANT! You must initialise YOUR repo as a Hugo module 
+# before you can mount OTHER Hugo modules
+# So make sure you have run hugo mod init 
+# BEFORE you add the next lines
+
+ # mount all the shared CYF brand assets, content, etc, from /curriculum
+# [module]
+#   [[module.imports]]
+#     path = "github.com/CodeYourFuture/curriculum/org-cyf-theme" 
+
+# set the Hugo theme to Common theme
+# theme = "common-theme"
+
+# that's all you need for config
